@@ -1,0 +1,4 @@
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+Teacher/AClick/Away/BuildConfig.java
+ Teacher.AClick.Away.BuildConfig
