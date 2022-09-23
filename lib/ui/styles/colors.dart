@@ -10,6 +10,7 @@ const Color errorColor = Color(0xffff6769);
 const Color onBackgroundColor = Color(0xff484848);
 const Color onPrimaryColor = Color.fromARGB(200,204, 185, 155);
 const Color onSecondaryColor = Color.fromARGB(199, 219, 167, 84);
+const Color test = Colors.white;
 
 //classes colors
 const List<Color> myClassesColors = [

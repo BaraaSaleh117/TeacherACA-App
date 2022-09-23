@@ -78,19 +78,17 @@ class MyApp extends StatelessWidget {
             context.watch<AppLocalizationCubit>().state.language;
         return MaterialApp(
           theme: Theme.of(context).copyWith(
-              textTheme:
-                  GoogleFonts.acmeTextTheme (Theme.of(context).textTheme),
+              textTheme: GoogleFonts.acmeTextTheme(Theme.of(context).textTheme),
               scaffoldBackgroundColor: pageBackgroundColor,
               colorScheme: Theme.of(context).colorScheme.copyWith(
                     primary: primaryColor,
-                    onPrimary: onPrimaryColor,
+                    onPrimary: test,
                     secondary: secondaryColor,
                     background: backgroundColor,
                     error: errorColor,
                     onSecondary: onSecondaryColor,
                     onBackground: onBackgroundColor,
                   )),
-                  
           builder: (context, widget) {
             return ScrollConfiguration(
                 behavior: GlobalScrollBehavior(), child: widget!);
@@ -107,6 +105,7 @@ class MyApp extends StatelessWidget {
           }).toList(),
           debugShowCheckedModeBanner: false,
           initialRoute: Routes.splash,
+          // home: WaitingScreen(),
           onGenerateRoute: Routes.onGenerateRouted,
         );
       }),

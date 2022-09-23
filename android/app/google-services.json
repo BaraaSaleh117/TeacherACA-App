@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "578838374405",
-    "project_id": "teacheraclickaway",
-    "storage_bucket": "teacheraclickaway.appspot.com"
+    "project_number": "1055239443547",
+    "project_id": "teacherapp-4b729",
+    "storage_bucket": "teacherapp-4b729.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:578838374405:android:3df2d866b327689958546c",
+        "mobilesdk_app_id": "1:1055239443547:android:32fdb6d21f5e61d544db7e",
         "android_client_info": {
           "package_name": "Teacher.AClick.Away"
         }
       },
       "oauth_client": [
         {
-          "client_id": "578838374405-01v9g2019v9k1ec3us94795henfrm6og.apps.googleusercontent.com",
+          "client_id": "1055239443547-j86cto705b9shaf58lddk1meeshh8c2j.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyC96E5rPBjNkNJb2BJkK1ryRp0wRq0V6XA"
+          "current_key": "AIzaSyCMyOvhHzMDHvlQDjoCu5B0z2tfskikATE"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "578838374405-01v9g2019v9k1ec3us94795henfrm6og.apps.googleusercontent.com",
+              "client_id": "1055239443547-j86cto705b9shaf58lddk1meeshh8c2j.apps.googleusercontent.com",
               "client_type": 3
             }
           ]

@@ -61,6 +61,7 @@ dependencies:
   timeago: ^3.2.2
   open_file:
   package_info_plus:
+  image_picker: ^0.8.5+3
   
 dev_dependencies:
   change_app_package_name: ^1.0.0

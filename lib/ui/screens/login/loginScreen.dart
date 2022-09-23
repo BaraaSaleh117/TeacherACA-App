@@ -3,6 +3,7 @@ import 'package:eschool_teacher/cubits/authCubit.dart';
 import 'package:eschool_teacher/cubits/forgotPasswordRequestCubit.dart';
 import 'package:eschool_teacher/cubits/signInCubit.dart';
 import 'package:eschool_teacher/data/repositories/authRepository.dart';
+import 'package:eschool_teacher/ui/screens/form/stteper_screen.dart';
 import 'package:eschool_teacher/ui/screens/login/widgets/forgotPasswordRequestBottomsheet.dart';
 import 'package:eschool_teacher/ui/screens/login/widgets/termsAndConditionAndPrivacyPolicyContainer.dart';
 import 'package:eschool_teacher/ui/widgets/customCircularProgressIndicator.dart';
@@ -253,7 +254,12 @@ class _LoginScreenState extends State<LoginScreen>
                         context.read<AuthCubit>().authenticateUser(
                             jwtToken: state.jwtToken, teacher: state.teacher);
 
-                        Navigator.of(context).pushReplacementNamed(Routes.home);
+                        // Navigator.of(context).pushReplacementNamed(Routes.home);
+                        Navigator.of(context).pushReplacement(MaterialPageRoute(builder: (builder) {
+                          return StepperScreen();
+                        }));
+
+
                       } else if (state is SignInFailure) {
                         UiUtils.showBottomToastOverlay(
                             context: context,
